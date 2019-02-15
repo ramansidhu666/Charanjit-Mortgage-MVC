@@ -1,0 +1,53 @@
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\ApplicationInsights.config
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\roslyn\csc.exe
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\roslyn\vbc.exe
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\roslyn\VBCSCompiler.exe
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Charanjit Mortgage MVC.dll.config
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Charanjit Mortgage MVC.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Charanjit Mortgage MVC.pdb
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Antlr3.Runtime.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Microsoft.AI.Web.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Microsoft.AI.WindowsServer.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Microsoft.ApplicationInsights.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Newtonsoft.Json.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\System.Web.Helpers.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\System.Web.Mvc.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\System.Web.Optimization.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\System.Web.Razor.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\System.Web.WebPages.Deployment.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\System.Web.WebPages.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\System.Web.WebPages.Razor.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\WebGrease.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Microsoft.AI.Web.xml
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Microsoft.AI.WindowsServer.xml
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Microsoft.ApplicationInsights.xml
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\System.Web.Helpers.xml
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\System.Web.Mvc.xml
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\System.Web.Optimization.xml
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\System.Web.Razor.xml
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\System.Web.WebPages.xml
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\System.Web.WebPages.Deployment.xml
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\System.Web.WebPages.Razor.xml
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Antlr3.Runtime.pdb
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\bin\Newtonsoft.Json.xml
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\obj\Debug\Charanjit Mortgage MVC.csprojResolveAssemblyReference.cache
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\obj\Debug\Charanjit Mortgage MVC.dll
+C:\sites\Charanjit Mortgage MVC\Charanjit Mortgage MVC\obj\Debug\Charanjit Mortgage MVC.pdb

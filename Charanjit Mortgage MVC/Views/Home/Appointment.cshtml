@@ -1,0 +1,452 @@
+﻿@{
+    ViewBag.Title = "Appointment";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mortgage | Make an Appointment</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/media.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/css/animate.min.css">
+    <link href="~/css/fonts.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="~/css/animate.css">
+    <link rel="stylesheet" href="~/css/datepicker.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/aos.css">
+
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo_set">
+                            <a href="../home/index"><img src="../images/logo.png" /></a>
+                        </div>
+                    </div>
+					<div class="col-md-6">
+					<div class="client_name">
+					 <img src="../images/name.jpg" />
+
+					</div>
+					</div>
+                    <div class="col-md-3">
+                        <div class="hd_k">
+                            <ul>
+                                <li><a href="#"><img src="~/images/fb.png" /></a></li>
+
+                                <li><a href="#"><img src="~/images/insta.png" /></a></li>
+                                <li><a href="#"><img src="~/images/google.png" /></a></li>
+                                <li><a href="#"><img src="~/images/lin.png" /></a></li>
+
+
+
+                            </ul>
+                        </div>
+                        <div class="hd_v">
+                            <ul>
+                                <li><a href="tel:416-890-2019"><i class="fa fa-phone" aria-hidden="true"></i>416-890-2019</a></li>
+
+                                <li><a href="mailto:info@mortgagecrew.ca"><i class="fa fa-envelope" aria-hidden="true"></i> info@mortgagecrew.ca</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class=""><a href="../home/index">Home</a></li>
+                        <li><a href="~/about.html">About</a></li>
+
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mortgages</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="~/benefits-of-using-a-mortgage-professional.html">Benefits of Using a Mortgage Professional</a></li>
+                                <li><a href="~/mortgage-professional-cost.html">How Much Does it Cost</a></li>
+                                <li><a href="~/mortgage-renewal.html">Mortgage Renewal</a></li>
+                                <li><a href="~/home-equity.html">Home Equity</a></li>
+                                <li><a href="~/mortgage-life-insurance.html">Mortgage Life Insurance</a></li>
+                                <li><a href="~/how-to-apply.html">Apply Now</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home Purchase</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="~/home-purchase-overview.html">Home Purchase Overview</a></li>
+                                <li><a href="~/mortgage-pre-approval.html">Mortgage Pre Approval</a></li>
+                                <li><a href="~/fixed-rate-vs-variable-rate.html">fixed-Rate Vs Variable Rate</a></li>
+                                <li><a href="~/understanding-your-credit-report.html">Understanding your Credit Report</a></li>
+                                <li><a href="~/determine-the-right-term.html">Determine the Right Term</a></li>
+                                <li><a href="~/pay-off-your-mortgage-faster.html">Pay off your Mortgage Faster</a></li>
+                                <li><a href="~/self-employed-solutions.html">Self Employed Solutions</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Refinance</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="~/refinance.html">Refinance</a></li>
+                                <li><a href="~/chip.html">Chip</a></li>
+
+
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Calculators</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="~/land_transfer.html">Land Transfer Tax</a></li>
+                                <li><a href="~/mortgage_payment.html">Mortgage Payment</a></li>
+                                <li><a href="~/cmhc_premium.html">CMHC Premium</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li class="active"><a href="/home/appointment"> Appointment</a></li>
+                        <li><a href="../home/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    </header>
+    <div class="about_bg2">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12">
+                    <h1>Make an Appointment</h1>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="contact_sec">
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-4">
+                    <div class="romana_contact_left romana_section_title">
+                        <h2>Contact Information</h2>
+                        <div class="single_contact">
+                            <h3>Email: </h3>
+                            <p><a href="mailto:info@mortgagecrew.ca">info@mortgagecrew.ca</a></p>
+                        </div>
+                        <div class="single_contact">
+                            <h3>Tel:</h3>
+                            <address>
+                                <p>
+                                   <a href="tel:416-890-2019"> 416-890-2019</a>
+                                </p>
+                            </address>
+                        </div>
+                        <div class="single_contact">
+                            <h3>Phone Number</h3>
+<p>
+                                   <a href="tel:416-890-2019"> 416-890-2019</a>
+                                </p>                        </div>
+                        <div class="single_contact">
+                            <h3>Fax:</h3>
+							<p>
+							<a href="tel:905-499-1792"> 905-499-1792</a>
+                            </p>
+                        </div>
+                        <div class="single_contact">
+                            <h3>Address</h3>
+                            <p>
+                                Unit 1 - 27 Armthorpe Rd
+                                Brampton,</br> ON
+                                L6T 5M4, Canada
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- column End -->
+                <div class="col-sm-8">
+                    <div class="romana_contact_right">
+                        <div class="appointment_img">
+                            <img src="../images/appointmnt_img.jpg" />
+                        </div>
+                        <div class="romana_contact_form2 romana_section_title">
+                            <h4>Make an Appointment</h4>
+                            <p class="form-messages"></p>
+                            <form action="#" id="ajax-contact" method="POST">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <input type="text" name="username" id="first_name" class="form-control" placeholder="Name:" tabindex="1">
+                                        <label id="message1" class="error"></label>
+                                        <input type="email" name="email" id="e-mail_id" class="form-control" placeholder="E-Mail:" tabindex="2">
+                                        <label id="message2" class="error"></label>
+                                  </div>
+                                    <div class="col-sm-6">
+                                        <input type="text" placeholder="Phone" class="form-control" name="subject" id="subject" tabindex="3">
+                                        <label id="message3" class="error"></label>
+                                        <input type='text' name="lname" class="simple-input" id='datetimepicker4' required placeholder="Appointment Date" />
+                                      
+                                        <label id="message5" class="error"></label>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <textarea name="message" class="form-control" id="exampleTextarea" placeholder="Message:" rows="3"></textarea>
+                                        <label id="message4" class="error"></label>
+ <div class="romana_submit_btn">
+     <button id="btnSave" type="button" class="common_shadow_hover">Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- column End -->
+            </div>
+            <!-- row End -->
+        </div>
+        <!-- container End -->
+    </div>
+
+
+
+    <div class=" appoinment_link">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class=" appoinment_text">
+                        <h2>Get a free consult</h2>
+                        <h3>We love help you to grow your business</h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class=" appoinment_btn">
+
+                        <a href="/home/appointment" class="btn btn-primary"> Make an Appointment </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="ftr_set">
+                        <h3>Mortgages</h3>
+                        <ul>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="benefits-of-using-a-mortgage-professional.html">Benefits of Using a Mortgage Professional</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="mortgage-professional-cost.html">    How Much Does it Cost</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="mortgage-renewal.html">    Mortgage Renewal</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="home-equity.html">    Home Equity</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="mortgage-life-insurance.html">    Mortgage Life Insurance</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="apply_now.html">    Apply Now</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ftr_set">
+                        <h3>Home Purchase</h3>
+                        <ul>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="home-purchase-overview.html">    Home Purchase Overview</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="mortgage-pre-approval.html">    Mortgage Pre-Approval</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="fixed-rate-vs-variable-rate.html">    Fixed Rate vs. Variable Rate</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="understanding-your-credit-report.html">    Understanding your Credit Report</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="determine-the-right-term.html">    Determine the Right Term</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="pay-off-your-mortgage-faster.html">    Pay Off Your Mortgage Faster</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="self-employed-solutions.html">    Self-Employed Solutions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ftr_set">
+                        <h3>Company Overview</h3>
+                        <ul>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#">    Commercial & Leasing</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#">Resources</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="/home/appointment">Appointment</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="../home/contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ftr_set">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <strong> Address:  </strong>Unit 1 - 27 Armthorpe Rd
+                                    Brampton, ON
+                                    L6T 5M4, Canada
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@mortgagecrew.ca">
+                                    <strong>Email :</strong> info@mortgagecrew.ca
+                                </a>
+                            </li>
+                            <li><a href="tel:416-890-2019"><strong>Tel: </strong> 416-890-2019</a></li>
+                            <li><a href="tel:416-890-2019">  <strong> Cell:</strong> 416-890-2019</a></li>
+                            <li><a href="tel:905-499-1792"><strong>Fax:</strong> 905-499-1792 </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="bottom_footer">
+        <div class="container">
+        </div>
+        <div class="col-md-12">
+            <div class="bottom_text">
+                <p><a href="http://only4agents.com/">Designed by : Only4agents</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/jquery-1.11.1.min.js"></script>
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/datepicker.js"></script>
+
+    <script>
+			$(function() {
+			$('.dates #usr1').datepicker({
+				'format': 'yyyy-mm-dd',
+				'autoclose': true
+			});
+		});
+    </script>
+
+
+    <script>
+
+	  $('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+    </script>
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+          rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script>
+
+    $(document).ready(function () {
+
+        $(function () {
+            $('#datetimepicker4').datepicker();
+        });
+
+        $('#btnSave').click(function () {
+            debugger;
+
+            if ($("input[name=username]").val() == "") {
+                $('#message1').html('This field is required');
+                $('#message2').html('');
+                $('#message3').html('');
+                $('#message4').html('');
+                $('#message5').html('');
+            }
+            else if ($("input[name=lname]").val() == "") {
+                $('#message5').html('This field is required');
+                $('#message1').html('');
+                $('#message3').html('');
+                $('#message2').html('');
+                $('#message4').html('');
+            }
+            else if ($("input[name=email]").val() == "") {
+                $('#message2').html('This field is required');
+                $('#message1').html('');
+                $('#message3').html('');
+                $('#message4').html('');
+                $('#message5').html('');
+            }
+            else if ($("input[name=subject]").val() == "") {
+                $('#message3').html('This field is required');
+                $('#message1').html('');
+                $('#message2').html('');
+                $('#message4').html('');
+                $('#message5').html('');
+
+            }
+            else if ($("textarea[name=message]").val() == "") {
+                $('#message4').html('This field is required');
+                $('#message1').html('');
+                $('#message3').html('');
+                $('#message2').html('');
+                $('#message5').html('');
+            }
+
+            if ($("input[name=username]").val() != "" && $("input[name=email]").val() != "" && $("input[name=subject]").val() != "" && $("textarea[name=message]").val() != "" && $("input[name=lname]").val()!="") {
+
+                $.ajax({
+
+                    url: "/Home/Appointment",
+                    data: { 'username': $("input[name=username]").val(), 'date': $("input[name=lname]").val(), 'phn': $("input[name=subject]").val(), 'Email': $("input[name=email]").val(), 'message': $("textarea[name=message]").val() },
+                    type: "POST",
+                    dataType: 'json',
+                    success: function (data) {
+                        debugger;
+                        alert('Mail has been sent to admin. You will be contacted shortly.');
+                        $('#message1').html('');
+                        $('#message3').html('');
+                        $('#message2').html('');
+                        $('#message4').html('');
+                        $('#message5').html('');
+                        $("input[name=username]").val('');
+                        $("input[name=email]").val('');
+                        $("input[name=subject]").val('');
+                        $("input[name=lname]").val('');
+                        $("textarea[name=message]").val('');
+                        return false;
+                    },
+                    error: function (data) {
+                        debugger;
+                        alert("Dynamic content load failed.");
+                    }
+                });
+            }
+        });
+    });
+    </script>
+</body>
+</html>

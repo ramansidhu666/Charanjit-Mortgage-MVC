@@ -1,0 +1,898 @@
+﻿@{
+    ViewBag.Title = "Mortgage | INDEX";
+    Layout = null;
+}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mortgage | INDEX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/media.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/css/animate.min.css">
+    <link href="~/css/fonts.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="~/css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/aos.css">
+
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="logo_set">
+                            <a href="../home/index"><img src="../images/logo.png" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="hd_k">
+                            <ul>
+                                <li><a href="#"><img src="~/images/fb.png" /></a></li>
+
+                                <li><a href="#"><img src="~/images/insta.png" /></a></li>
+                                <li><a href="#"><img src="~/images/google.png" /></a></li>
+                                <li><a href="#"><img src="~/images/lin.png" /></a></li>
+
+
+
+                            </ul>
+                        </div>
+                        <div class="hd_v">
+                           <ul>
+                                <li><a href="tel:416-890-2019"><i class="fa fa-phone" aria-hidden="true"></i>416-890-2019</a></li>
+
+                                <li><a href="mailto:info@mortgagecrew.ca"><i class="fa fa-envelope" aria-hidden="true"></i> info@mortgagecrew.ca</a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="../home/index">Home</a></li>
+                        <li><a href="~/about.html">About</a></li>
+
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mortgages</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="~/benefits-of-using-a-mortgage-professional.html">Benefits of Using a Mortgage Professional</a></li>
+                                <li><a href="~/mortgage-professional-cost.html">How Much Does it Cost</a></li>
+                                <li><a href="~/mortgage-renewal.html">Mortgage Renewal</a></li>
+                                <li><a href="~/home-equity.html">Home Equity</a></li>
+                                <li><a href="~/mortgage-life-insurance.html">Mortgage Life Insurance</a></li>
+                                <li><a href="~/how-to-apply.html">Apply Now</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home Purchase</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="~/home-purchase-overview.html">Home Purchase Overview</a></li>
+                                <li><a href="~/mortgage-pre-approval.html">Mortgage Pre Approval</a></li>
+                                <li><a href="~/fixed-rate-vs-variable-rate.html">fixed-Rate Vs Variable Rate</a></li>
+                                <li><a href="~/understanding-your-credit-report.html">Understanding your Credit Report</a></li>
+                                <li><a href="~/determine-the-right-term.html">Determine the Right Term</a></li>
+                                <li><a href="~/pay-off-your-mortgage-faster.html">Pay off your Mortgage Faster</a></li>
+                                <li><a href="~/self-employed-solutions.html">Self Employed Solutions</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Refinance</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="~/refinance.html">Refinance</a></li>
+                                <li><a href="~/chip.html">Chip</a></li>
+
+
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Calculators</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="~/land_transfer.html">Land Transfer Tax</a></li>
+                                <li><a href="~/mortgage_payment.html">Mortgage Payment</a></li>
+                                <li><a href="~/cmhc_premium.html">CMHC Premium</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li><a href="/home/appointment"> Appointment</a></li>
+                        <li><a href="../home/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    <div class="slider">
+        <!--------SLIDER_START--------->
+        <div id="bootstrap-touch-slider" class="carousel bs-slider slide  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000">
+            <!-- Indicators -->
+            <!-- Wrapper For Slides -->
+            <div class="carousel-inner" role="listbox">
+                <!-- Third Slide -->
+                <div class="item active">
+                    <!-- Slide Background -->
+                    <img src="~/images/slider_1.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
+                    <div class="container">
+                        <div class="row">
+                            <!-- Slide Text Layer -->
+                            <div class="slide-text slide_style_left">
+                                <h1 data-animation="animated zoomInRight">Welcome</h1>
+                                <p data-animation="animated zoomInLeft">
+                                    Whether you are a first-time buyer or an experienced buyer with</br>
+                                    excellent credit Dominion Lending Centres has access to the very best</br>
+                                    products and rates available across Canada. Give us a call we think you ll be pleasantly surprised!
+                                </p>
+                                <center><a data-animation="animated zoomInLeft" href="../home/contact" class="btn btn-primary">Get In Touch</a></center>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Slide -->
+                <!-- Second Slide -->
+                <div class="item">
+                    <!-- Slide Background -->
+                    <img src="~/images/slider_4.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
+                    <!-- Slide Text Layer -->
+                    <div class="slide-text slide_style_left">
+                        <h1 data-animation="animated zoomInRight">How to Apply</h1>
+                        <p data-animation="animated zoomInLeft">
+                            Applying for a mortgage couldn t be easier.</br> Just complete our secure application and we will be in touch shortly.
+                        </p>
+                        <center><a data-animation="animated zoomInLeft" href="apply_now.html" class="btn btn-primary">Apply Now</a></center>
+
+
+                    </div>
+                </div>
+                <!-- End of Slide -->
+                <!-- Third Slide -->
+                <div class="item">
+                    <!-- Slide Background -->
+                    <img src="~/images/slider_3.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
+                    <!-- Slide Text Layer -->
+                    <div class="slide-text slide_style_left">
+                        <h1 data-animation="animated zoomInRight">Calculators</h1>
+                        <p data-animation="animated zoomInLeft">
+                            Whether you are a first-time buyer or an experienced buyer with</br>
+                            excellent credit Dominion Lending Centres has access to the very best</br>
+                            products and rates available across Canada. Give us a call we think you ll be pleasantly surprised!
+                        </p>
+                        <center><a data-animation="animated zoomInLeft" href="land_transfer.html" class="btn btn-primary">Read More</a></center>
+
+                    </div>
+                </div>
+
+                <div class="item">
+                    <!-- Slide Background -->
+                    <img src="~/images/slider_2.jpg" alt="Bootstrap Touch Slider" class="slide-image" />
+                    <!-- Slide Text Layer -->
+                    <div class="slide-text slide_style_left">
+                        <h1 data-animation="animated zoomInRight">Current Rates</h1>
+                        <p data-animation="animated zoomInLeft">
+                            Whether you are a first-time buyer or an experienced buyer with</br>
+                            excellent credit, Dominion Lending Centres has access to the very best</br>
+                            products and rates available across Canada. Give us a call we think you ll be pleasantly surprised!
+                        </p>
+                        <center><a data-animation="animated zoomInLeft" href="#" class="btn btn-primary">I want to see rates</a></center>
+
+
+                    </div>
+                </div>
+                <!-- End of Slide -->
+            </div>
+            <!-- End of Wrapper For Slides -->
+            <!-- Left Control -->
+            <a class="left carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="prev">
+                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <!-- Right Control -->
+            <a class="right carousel-control" href="#bootstrap-touch-slider" role="button" data-slide="next">
+                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--------SLIDER_END--------->
+    <div class="about_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="abt_sec" data-aos="fade-up" data-aos-duration="1500">
+                        <h3 data-aos="zoom-in" data-aos-duration="1500">About us</h3>
+                        <p>
+                            There are generally two ways to get a mortgage in Canada: From a bank or from
+                            a licensed mortgage professional.
+                        </p>
+                        <p>
+                            While a bank only offers the products from their particular institution, licensed
+                            mortgage professionals send millions of dollars in mortgage business each year
+                            to Canada's largest banks, credit unions, trust companies, and financial institutions;
+                            offering their clients more choice, and access to hundreds of mortgage products!
+                            As a result, clients benefit from the trust, confidence, and security of knowing they
+                            are getting the best mortgage for their needs.
+                        </p>
+                        <p>
+                            Whether you're purchasing a home for the first time, taking out equity from your
+                            home for investment or pleasure, or your current mortgage is simply up for renewal,
+                            it's important that you are making an educated buying decision with professional
+                            unbiased advice.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="video_sec" data-aos="fade-up" data-aos-duration="1500">
+                        <iframe width="80%" height="315" src="https://www.youtube.com/embed/t3FpVBKT1Mk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="video_call_sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="video_sec2" data-aos="fade-up" data-aos-duration="1500">
+                        <h3>Videos</h3>
+                        <iframe width="90%" height="315" src="https://www.youtube.com/embed/wWoaU6Q8sHg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p>DLC - Self Employed Mortgage Solution</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="form_1" data-aos="fade-up" data-aos-duration="1500">
+                        <h3>Request a Call Back</h3>
+                        <h5>Let us call you back when it's </h5>
+                        <h4>Convenient for you!</h4>
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" name="username" id="first_name" class="form-control" placeholder="First Name:" tabindex="1">
+                                    <label id="message1" class="error"></label>
+ </div>
+                            </div>
+                            <!--Grid column-->
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="email" name="email" id="e-mail_id" class="form-control" placeholder="E-Mail Address:" tabindex="2">
+                                    <label id="message2" class="error"></label>
+ </div>
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+
+                                    <Select class="form-control" id="drpDay">
+                                        <option>Best Day</option>
+                                        <option>Saturday</option>
+
+                                        <option>Sunday</option>
+
+                                        <option>Monday</option>
+
+                                        <option>Tuesday</option>
+                                        <option>Wednesday</option>
+                                        <option>Thursday</option>
+
+                                        <option>Friday</option>
+
+                                    </Select>
+                                    <label id="message4" class="error"></label>
+
+                                </div>
+                            </div>
+                            <!--Grid column-->
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" placeholder="Phone" class="form-control" name="subject" id="subject" tabindex="3">
+                                    <label id="message3" class="error"></label>
+ </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="text-center">
+                                    @*<a href="#" class="btn btn-primary">Call me back</a>*@
+                                    <button id="btnSave" type="button" class="btn btn-primary">Call me back</button>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="visa cards_sec">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 no-padding">
+                    <div class="left_1">
+                        <h4>
+                            Take advantage <br>
+                            of Dominion Lending
+                        </h4>
+                        <h3>Visa cards</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 no-padding">
+                    <div class="right_1">
+                        <img src="../images/mein.png">
+                        <h3>Free Mortgage Review</h3>
+                        <p>Find out how much your home is worth.</p>
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" name="username1" id="first_name" class="form-control" placeholder="First Name:" tabindex="1">
+                                    <label id="message11" class="error" style="color:red"></label> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="email" name="email1" id="e-mail_id" class="form-control" placeholder="E-Mail Address:" tabindex="2">
+                                    <label id="message21" class="error" style="color:red"></label> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" placeholder="Mortgage amount" class="form-control" name="subject1" id="subject" tabindex="3">
+                                    @*<label id="message3" class="error"></label>*@
+                                    @*<input type="text" id="amt" name="amt" placeholder="Mortgage amount" class="form-control">*@
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0 mr">
+                                    <input type='text' name="lname" class="form-control" id='datetimepicker4' required placeholder="Renewal date" />
+
+                                    @*<label id="message5" class="error"></label>*@
+                                    @*<input type="text" id="date" name="date" placeholder="Renewal date" class="form-control">*@
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0 mr">
+
+
+                                    <Select class="form-control" id="drpDay1">
+                                        <option>Best Day</option>
+                                        <option>Saturday</option>
+
+                                        <option>Sunday</option>
+
+                                        <option>Monday</option>
+
+                                        <option>Tuesday</option>
+                                        <option>Wednesday</option>
+                                        <option>Thursday</option>
+
+                                        <option>Friday</option>
+
+                                    </Select>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0 mr">
+                                    <input type="text" placeholder="Best Time" class="form-control" name="time1" id="" tabindex="3">
+                                    
+                                    @*<input type="text" id="time" name="time" placeholder="Best Time" class="form-control">*@
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="text-center2 mr">
+                                    <button id="btnSave1" type="button" class="btn btn-primary">I want my dream home!</button>
+                                    @*<a href="#" class="btn btn-primary">I want my dream home!</a>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service_sec">
+        <div class="container">
+            <div class="service_text">
+
+                <h3> Our Services</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service_box" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../images/1.png" />
+                        <h3>Home Purchase Overview</h3>
+                        <p>The purchase of a home is the largest purchase most people make during their lifetime.</p>
+                        <a href="home-purchase-overview.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service_box" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../images/2.png" />
+                        <h3>Mortgage Pre Approval</h3>
+                        <p>The purchase of a home is the largest purchase most people make during their lifetime.</p>
+                        <a href="mortgage-pre-approval.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="service_box" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../images/4.png" />
+                        <h3>Fixed Rate vs Variable Rate</h3>
+                        <p>The purchase of a home is the largest purchase most people make during their lifetime.</p>
+                        <a href="fixed-rate-vs-variable-rate.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service_box" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../images/5.png" />
+                        <h3>Understanding your Credit Report</h3>
+                        <p>The purchase of a home is the largest purchase most people make during their lifetime.</p>
+                        <a href="understanding-your-credit-report.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service_box" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../images/3.png" />
+                        <h3>Determine the Right Term</h3>
+                        <p>The purchase of a home is the largest purchase most people make during their lifetime.</p>
+                        <a href="determine-the-right-term.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="service_box" data-aos="fade-up" data-aos-duration="1500">
+                        <img src="../images/6.png" />
+                        <h3>Pay off your Mortgage Faster</h3>
+                        <p>The purchase of a home is the largest purchase most people make during their lifetime.</p>
+                        <a href="pay-off-your-mortgage-faster.html" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---<div class="Making_sec">
+       <div class="container">
+          <div class="row">
+             <div class=" col-md-6 col-sm-6">
+                <div class="Making_text" data-aos="fade-up" data-aos-duration="1500">
+                   <h3>Making homeowner dreams</br>
+                      come true
+                   </h3>
+                   <p>We're here to help you with home purchases, mortgage</br>
+                      renewals, refinancing and more.
+                   </p>
+                </div>
+             </div>
+             <div class=" col-md-6 col-sm-6">
+                <div class="form_4" data-aos="fade-up" data-aos-duration="1500" >
+                   <form>
+                      <div class="row">
+                         <div class="col-md-12">
+                            <div class="md-form mb-0 set">
+                               <input type="text" id="fname" name="fname" placeholder=" First Name"  class="form-control">
+                            </div>
+                         </div>
+                      </div>
+                      <div class="row">
+                         <div class="col-md-12">
+                            <div class="md-form mb-0 set">
+                               <input type="text" id="lname" name="lname" placeholder=" Last Name "  class="form-control">
+                            </div>
+                         </div>
+                      </div>
+                      <div class="row">
+                         <div class="col-md-12">
+                            <div class="md-form set_1">
+                               <textarea type="text" id="message" name="message" placeholder="Message" rows="6" class="form-control md-textarea"></textarea>
+                            </div>
+                            <div class="text-left">
+                               <a href="#" class="btn btn-primary">I want my dream home!</a>
+                            </div>
+                         </div>
+                      </div>
+                   </form>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>--->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="ftr_set">
+                        <h3>Mortgages</h3>
+                        <ul>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="benefits-of-using-a-mortgage-professional.html">Benefits of Using a Mortgage Professional</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="mortgage-professional-cost.html">    How Much Does it Cost</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="mortgage-renewal.html">    Mortgage Renewal</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="home-equity.html">    Home Equity</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="mortgage-life-insurance.html">    Mortgage Life Insurance</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="apply_now.html">    Apply Now</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ftr_set">
+                        <h3>Home Purchase</h3>
+                        <ul>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="home-purchase-overview.html">    Home Purchase Overview</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="mortgage-pre-approval.html">    Mortgage Pre-Approval</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="fixed-rate-vs-variable-rate.html">    Fixed Rate vs. Variable Rate</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="understanding-your-credit-report.html">    Understanding your Credit Report</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="determine-the-right-term.html">    Determine the Right Term</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="pay-off-your-mortgage-faster.html">    Pay Off Your Mortgage Faster</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="self-employed-solutions.html">    Self-Employed Solutions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ftr_set">
+                        <h3>Company Overview</h3>
+                        <ul>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#">    Commercial & Leasing</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#">Resources</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="/home/appointment">Appointment</a></li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="../home/contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ftr_set">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <strong> Address:  </strong>Unit 1 - 27 Armthorpe Rd
+                                    Brampton, ON
+                                    L6T 5M4, Canada
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@mortgagecrew.ca">
+                                    <strong>Email :</strong> info@mortgagecrew.ca
+                                </a>
+                            </li>
+                            <li><a href="tel:416-890-2019"><strong>Tel: </strong> 416-890-2019</a></li>
+                            <li><a href="tel:416-890-2019">  <strong> Cell:</strong> 416-890-2019</a></li>
+                            <li><a href="tel:905-499-1792"><strong>Fax:</strong> 905-499-1792 </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="bottom_footer">
+        <div class="container">
+        </div>
+        <div class="col-md-12">
+            <div class="bottom_text">
+                <p><a href="http://only4agents.com/">Designed by : Only4agents</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="../js/aos.js"></script>
+
+    <script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+<script>
+    AOS.init()
+</script>
+<script>
+   /*
+
+   Suga Slider
+
+   Usage ---------
+
+   $(window).load(function(){
+     $('#logos').suga({
+       'transitionSpeed': 2000,
+       'snap': false
+     });
+   });
+
+   The markup should resemble the markup here
+
+   */
+
+   $.fn.suga = function(options) {
+     var settings = $.extend({
+         'transitionSpeed': 3000,
+         'snap': false
+     }, options);
+
+     var $this = $(this);
+
+     // add plugin specific classes
+     $this.addClass('suga-slider-wrap');
+     $this.children('ul').addClass('suga-slider-group');
+     $this.find('li').addClass('suga-slide');
+
+     // caching $$$
+     var $slide = $('.suga-slide'),
+   			$firstEl = $('.suga-slide:first'),
+         $group = $('.suga-slider-group'),
+         $wrap = $('.suga-slider-wrap');
+
+     var slideWidth = $slide.outerWidth(),
+     		slideHeight = $('.suga-slide').height(),
+         slideCount = $slide.length,
+         totalWidth = slideWidth * slideCount;
+
+     // set width on group element
+     $group.width(totalWidth);
+     $wrap.height(slideHeight);
+     $wrap.wrap('<div class="suga-container"></div>');
+
+     // add first class at start
+     if (!$group.find($firstEl).hasClass("suga-first")) {
+       $group.find($firstEl).addClass("suga-first");
+     }
+
+     // lets move baby
+     var transitionSnap = function() {
+       var $firstEl = $group.find('.suga-first').html();
+
+       $group.find('.suga-first').animate({
+         'margin-left': '-' + slideWidth + 'px'
+       }, function(){
+        $group.append('<li class="suga-slide">' + $firstEl + '</li>');
+        $(this).remove();
+        $group.find('li:first').addClass("suga-first");
+
+       });
+     };
+
+     var transitionScroll = function() {
+        var $firstEl = $group.find('.suga-first').html();
+
+       $group.find('.suga-first').animate({
+         'margin-left': '-' + slideWidth + 'px'
+       }, settings.transitionSpeed, 'linear', function(){
+        $group.append('<li class="suga-slide">' + $firstEl + '</li>');
+        $(this).remove();
+        $group.find('li:first').addClass("suga-first");
+        transitionScroll();
+       });
+     };
+
+     if (settings.snap) {
+       window.setInterval(transitionSnap, settings.transitionSpeed);
+     } else {
+       transitionScroll();
+     }
+   }
+
+   $(window).load(function(){
+     $('#logos').suga({
+       'transitionSpeed': 2000,
+       'snap': true
+     });
+   });
+
+       /*Bootstrap Carousel Touch Slider.
+
+   https://bootstrapthemes.co
+
+   Credits: Bootstrap, jQuery, TouchSwipe, Animate.css, FontAwesome
+
+    */
+
+   (function(a){if(typeof define==="function"&&define.amd&&define.amd.jQuery){define(["jquery"],a)}else{if(typeof module!=="undefined"&&module.exports){a(require("jquery"))}else{a(jQuery)}}}(function(f){var y="1.6.15",p="left",o="right",e="up",x="down",c="in",A="out",m="none",s="auto",l="swipe",t="pinch",B="tap",j="doubletap",b="longtap",z="hold",E="horizontal",u="vertical",i="all",r=10,g="start",k="move",h="end",q="cancel",a="ontouchstart" in window,v=window.navigator.msPointerEnabled&&!window.navigator.pointerEnabled&&!a,d=(window.navigator.pointerEnabled||window.navigator.msPointerEnabled)&&!a,C="TouchSwipe";var n={fingers:1,threshold:75,cancelThreshold:null,pinchThreshold:20,maxTimeThreshold:null,fingerReleaseThreshold:250,longTapThreshold:500,doubleTapThreshold:200,swipe:null,swipeLeft:null,swipeRight:null,swipeUp:null,swipeDown:null,swipeStatus:null,pinchIn:null,pinchOut:null,pinchStatus:null,click:null,tap:null,doubleTap:null,longTap:null,hold:null,triggerOnTouchEnd:true,triggerOnTouchLeave:false,allowPageScroll:"auto",fallbackToMouseEvents:true,excludedElements:"label, button, input, select, textarea, a, .noSwipe",preventDefaultEvents:true};f.fn.swipe=function(H){var G=f(this),F=G.data(C);if(F&&typeof H==="string"){if(F[H]){return F[H].apply(this,Array.prototype.slice.call(arguments,1))}else{f.error("Method "+H+" does not exist on jQuery.swipe")}}else{if(F&&typeof H==="object"){F.option.apply(this,arguments)}else{if(!F&&(typeof H==="object"||!H)){return w.apply(this,arguments)}}}return G};f.fn.swipe.version=y;f.fn.swipe.defaults=n;f.fn.swipe.phases={PHASE_START:g,PHASE_MOVE:k,PHASE_END:h,PHASE_CANCEL:q};f.fn.swipe.directions={LEFT:p,RIGHT:o,UP:e,DOWN:x,IN:c,OUT:A};f.fn.swipe.pageScroll={NONE:m,HORIZONTAL:E,VERTICAL:u,AUTO:s};f.fn.swipe.fingers={ONE:1,TWO:2,THREE:3,FOUR:4,FIVE:5,ALL:i};function w(F){if(F&&(F.allowPageScroll===undefined&&(F.swipe!==undefined||F.swipeStatus!==undefined))){F.allowPageScroll=m}if(F.click!==undefined&&F.tap===undefined){F.tap=F.click}if(!F){F={}}F=f.extend({},f.fn.swipe.defaults,F);return this.each(function(){var H=f(this);var G=H.data(C);if(!G){G=new D(this,F);H.data(C,G)}})}function D(a5,au){var au=f.extend({},au);var az=(a||d||!au.fallbackToMouseEvents),K=az?(d?(v?"MSPointerDown":"pointerdown"):"touchstart"):"mousedown",ax=az?(d?(v?"MSPointerMove":"pointermove"):"touchmove"):"mousemove",V=az?(d?(v?"MSPointerUp":"pointerup"):"touchend"):"mouseup",T=az?(d?"mouseleave":null):"mouseleave",aD=(d?(v?"MSPointerCancel":"pointercancel"):"touchcancel");var ag=0,aP=null,a2=null,ac=0,a1=0,aZ=0,H=1,ap=0,aJ=0,N=null;var aR=f(a5);var aa="start";var X=0;var aQ={};var U=0,a3=0,a6=0,ay=0,O=0;var aW=null,af=null;try{aR.bind(K,aN);aR.bind(aD,ba)}catch(aj){f.error("events not supported "+K+","+aD+" on jQuery.swipe")}this.enable=function(){aR.bind(K,aN);aR.bind(aD,ba);return aR};this.disable=function(){aK();return aR};this.destroy=function(){aK();aR.data(C,null);aR=null};this.option=function(bd,bc){if(typeof bd==="object"){au=f.extend(au,bd)}else{if(au[bd]!==undefined){if(bc===undefined){return au[bd]}else{au[bd]=bc}}else{if(!bd){return au}else{f.error("Option "+bd+" does not exist on jQuery.swipe.options")}}}return null};function aN(be){if(aB()){return}if(f(be.target).closest(au.excludedElements,aR).length>0){return}var bf=be.originalEvent?be.originalEvent:be;var bd,bg=bf.touches,bc=bg?bg[0]:bf;aa=g;if(bg){X=bg.length}else{if(au.preventDefaultEvents!==false){be.preventDefault()}}ag=0;aP=null;a2=null;aJ=null;ac=0;a1=0;aZ=0;H=1;ap=0;N=ab();S();ai(0,bc);if(!bg||(X===au.fingers||au.fingers===i)||aX()){U=ar();if(X==2){ai(1,bg[1]);a1=aZ=at(aQ[0].start,aQ[1].start)}if(au.swipeStatus||au.pinchStatus){bd=P(bf,aa)}}else{bd=false}if(bd===false){aa=q;P(bf,aa);return bd}else{if(au.hold){af=setTimeout(f.proxy(function(){aR.trigger("hold",[bf.target]);if(au.hold){bd=au.hold.call(aR,bf,bf.target)}},this),au.longTapThreshold)}an(true)}return null}function a4(bf){var bi=bf.originalEvent?bf.originalEvent:bf;if(aa===h||aa===q||al()){return}var be,bj=bi.touches,bd=bj?bj[0]:bi;var bg=aH(bd);a3=ar();if(bj){X=bj.length}if(au.hold){clearTimeout(af)}aa=k;if(X==2){if(a1==0){ai(1,bj[1]);a1=aZ=at(aQ[0].start,aQ[1].start)}else{aH(bj[1]);aZ=at(aQ[0].end,aQ[1].end);aJ=aq(aQ[0].end,aQ[1].end)}H=a8(a1,aZ);ap=Math.abs(a1-aZ)}if((X===au.fingers||au.fingers===i)||!bj||aX()){aP=aL(bg.start,bg.end);a2=aL(bg.last,bg.end);ak(bf,a2);ag=aS(bg.start,bg.end);ac=aM();aI(aP,ag);be=P(bi,aa);if(!au.triggerOnTouchEnd||au.triggerOnTouchLeave){var bc=true;if(au.triggerOnTouchLeave){var bh=aY(this);bc=F(bg.end,bh)}if(!au.triggerOnTouchEnd&&bc){aa=aC(k)}else{if(au.triggerOnTouchLeave&&!bc){aa=aC(h)}}if(aa==q||aa==h){P(bi,aa)}}}else{aa=q;P(bi,aa)}if(be===false){aa=q;P(bi,aa)}}function M(bc){var bd=bc.originalEvent?bc.originalEvent:bc,be=bd.touches;if(be){if(be.length&&!al()){G(bd);return true}else{if(be.length&&al()){return true}}}if(al()){X=ay}a3=ar();ac=aM();if(bb()||!am()){aa=q;P(bd,aa)}else{if(au.triggerOnTouchEnd||(au.triggerOnTouchEnd==false&&aa===k)){if(au.preventDefaultEvents!==false){bc.preventDefault()}aa=h;P(bd,aa)}else{if(!au.triggerOnTouchEnd&&a7()){aa=h;aF(bd,aa,B)}else{if(aa===k){aa=q;P(bd,aa)}}}}an(false);return null}function ba(){X=0;a3=0;U=0;a1=0;aZ=0;H=1;S();an(false)}function L(bc){var bd=bc.originalEvent?bc.originalEvent:bc;if(au.triggerOnTouchLeave){aa=aC(h);P(bd,aa)}}function aK(){aR.unbind(K,aN);aR.unbind(aD,ba);aR.unbind(ax,a4);aR.unbind(V,M);if(T){aR.unbind(T,L)}an(false)}function aC(bg){var bf=bg;var be=aA();var bd=am();var bc=bb();if(!be||bc){bf=q}else{if(bd&&bg==k&&(!au.triggerOnTouchEnd||au.triggerOnTouchLeave)){bf=h}else{if(!bd&&bg==h&&au.triggerOnTouchLeave){bf=q}}}return bf}function P(be,bc){var bd,bf=be.touches;if(J()||W()){bd=aF(be,bc,l)}if((Q()||aX())&&bd!==false){bd=aF(be,bc,t)}if(aG()&&bd!==false){bd=aF(be,bc,j)}else{if(ao()&&bd!==false){bd=aF(be,bc,b)}else{if(ah()&&bd!==false){bd=aF(be,bc,B)}}}if(bc===q){if(W()){bd=aF(be,bc,l)}if(aX()){bd=aF(be,bc,t)}ba(be)}if(bc===h){if(bf){if(!bf.length){ba(be)}}else{ba(be)}}return bd}function aF(bf,bc,be){var bd;if(be==l){aR.trigger("swipeStatus",[bc,aP||null,ag||0,ac||0,X,aQ,a2]);if(au.swipeStatus){bd=au.swipeStatus.call(aR,bf,bc,aP||null,ag||0,ac||0,X,aQ,a2);if(bd===false){return false}}if(bc==h&&aV()){clearTimeout(aW);clearTimeout(af);aR.trigger("swipe",[aP,ag,ac,X,aQ,a2]);if(au.swipe){bd=au.swipe.call(aR,bf,aP,ag,ac,X,aQ,a2);if(bd===false){return false}}switch(aP){case p:aR.trigger("swipeLeft",[aP,ag,ac,X,aQ,a2]);if(au.swipeLeft){bd=au.swipeLeft.call(aR,bf,aP,ag,ac,X,aQ,a2)}break;case o:aR.trigger("swipeRight",[aP,ag,ac,X,aQ,a2]);if(au.swipeRight){bd=au.swipeRight.call(aR,bf,aP,ag,ac,X,aQ,a2)}break;case e:aR.trigger("swipeUp",[aP,ag,ac,X,aQ,a2]);if(au.swipeUp){bd=au.swipeUp.call(aR,bf,aP,ag,ac,X,aQ,a2)}break;case x:aR.trigger("swipeDown",[aP,ag,ac,X,aQ,a2]);if(au.swipeDown){bd=au.swipeDown.call(aR,bf,aP,ag,ac,X,aQ,a2)}break}}}if(be==t){aR.trigger("pinchStatus",[bc,aJ||null,ap||0,ac||0,X,H,aQ]);if(au.pinchStatus){bd=au.pinchStatus.call(aR,bf,bc,aJ||null,ap||0,ac||0,X,H,aQ);if(bd===false){return false}}if(bc==h&&a9()){switch(aJ){case c:aR.trigger("pinchIn",[aJ||null,ap||0,ac||0,X,H,aQ]);if(au.pinchIn){bd=au.pinchIn.call(aR,bf,aJ||null,ap||0,ac||0,X,H,aQ)}break;case A:aR.trigger("pinchOut",[aJ||null,ap||0,ac||0,X,H,aQ]);if(au.pinchOut){bd=au.pinchOut.call(aR,bf,aJ||null,ap||0,ac||0,X,H,aQ)}break}}}if(be==B){if(bc===q||bc===h){clearTimeout(aW);clearTimeout(af);if(Z()&&!I()){O=ar();aW=setTimeout(f.proxy(function(){O=null;aR.trigger("tap",[bf.target]);if(au.tap){bd=au.tap.call(aR,bf,bf.target)}},this),au.doubleTapThreshold)}else{O=null;aR.trigger("tap",[bf.target]);if(au.tap){bd=au.tap.call(aR,bf,bf.target)}}}}else{if(be==j){if(bc===q||bc===h){clearTimeout(aW);clearTimeout(af);O=null;aR.trigger("doubletap",[bf.target]);if(au.doubleTap){bd=au.doubleTap.call(aR,bf,bf.target)}}}else{if(be==b){if(bc===q||bc===h){clearTimeout(aW);O=null;aR.trigger("longtap",[bf.target]);if(au.longTap){bd=au.longTap.call(aR,bf,bf.target)}}}}}return bd}function am(){var bc=true;if(au.threshold!==null){bc=ag>=au.threshold}return bc}function bb(){var bc=false;if(au.cancelThreshold!==null&&aP!==null){bc=(aT(aP)-ag)>=au.cancelThreshold}return bc}function ae(){if(au.pinchThreshold!==null){return ap>=au.pinchThreshold}return true}function aA(){var bc;if(au.maxTimeThreshold){if(ac>=au.maxTimeThreshold){bc=false}else{bc=true}}else{bc=true}return bc}function ak(bc,bd){if(au.preventDefaultEvents===false){return}if(au.allowPageScroll===m){bc.preventDefault()}else{var be=au.allowPageScroll===s;switch(bd){case p:if((au.swipeLeft&&be)||(!be&&au.allowPageScroll!=E)){bc.preventDefault()}break;case o:if((au.swipeRight&&be)||(!be&&au.allowPageScroll!=E)){bc.preventDefault()}break;case e:if((au.swipeUp&&be)||(!be&&au.allowPageScroll!=u)){bc.preventDefault()}break;case x:if((au.swipeDown&&be)||(!be&&au.allowPageScroll!=u)){bc.preventDefault()}break}}}function a9(){var bd=aO();var bc=Y();var be=ae();return bd&&bc&&be}function aX(){return !!(au.pinchStatus||au.pinchIn||au.pinchOut)}function Q(){return !!(a9()&&aX())}function aV(){var bf=aA();var bh=am();var be=aO();var bc=Y();var bd=bb();var bg=!bd&&bc&&be&&bh&&bf;return bg}function W(){return !!(au.swipe||au.swipeStatus||au.swipeLeft||au.swipeRight||au.swipeUp||au.swipeDown)}function J(){return !!(aV()&&W())}function aO(){return((X===au.fingers||au.fingers===i)||!a)}function Y(){return aQ[0].end.x!==0}function a7(){return !!(au.tap)}function Z(){return !!(au.doubleTap)}function aU(){return !!(au.longTap)}function R(){if(O==null){return false}var bc=ar();return(Z()&&((bc-O)<=au.doubleTapThreshold))}function I(){return R()}function aw(){return((X===1||!a)&&(isNaN(ag)||ag<au.threshold))}function a0(){return((ac>au.longTapThreshold)&&(ag<r))}function ah(){return !!(aw()&&a7())}function aG(){return !!(R()&&Z())}function ao(){return !!(a0()&&aU())}function G(bc){a6=ar();ay=bc.touches.length+1}function S(){a6=0;ay=0}function al(){var bc=false;if(a6){var bd=ar()-a6;if(bd<=au.fingerReleaseThreshold){bc=true}}return bc}function aB(){return !!(aR.data(C+"_intouch")===true)}function an(bc){if(!aR){return}if(bc===true){aR.bind(ax,a4);aR.bind(V,M);if(T){aR.bind(T,L)}}else{aR.unbind(ax,a4,false);aR.unbind(V,M,false);if(T){aR.unbind(T,L,false)}}aR.data(C+"_intouch",bc===true)}function ai(be,bc){var bd={start:{x:0,y:0},last:{x:0,y:0},end:{x:0,y:0}};bd.start.x=bd.last.x=bd.end.x=bc.pageX||bc.clientX;bd.start.y=bd.last.y=bd.end.y=bc.pageY||bc.clientY;aQ[be]=bd;return bd}function aH(bc){var be=bc.identifier!==undefined?bc.identifier:0;var bd=ad(be);if(bd===null){bd=ai(be,bc)}bd.last.x=bd.end.x;bd.last.y=bd.end.y;bd.end.x=bc.pageX||bc.clientX;bd.end.y=bc.pageY||bc.clientY;return bd}function ad(bc){return aQ[bc]||null}function aI(bc,bd){bd=Math.max(bd,aT(bc));N[bc].distance=bd}function aT(bc){if(N[bc]){return N[bc].distance}return undefined}function ab(){var bc={};bc[p]=av(p);bc[o]=av(o);bc[e]=av(e);bc[x]=av(x);return bc}function av(bc){return{direction:bc,distance:0}}function aM(){return a3-U}function at(bf,be){var bd=Math.abs(bf.x-be.x);var bc=Math.abs(bf.y-be.y);return Math.round(Math.sqrt(bd*bd+bc*bc))}function a8(bc,bd){var be=(bd/bc)*1;return be.toFixed(2)}function aq(){if(H<1){return A}else{return c}}function aS(bd,bc){return Math.round(Math.sqrt(Math.pow(bc.x-bd.x,2)+Math.pow(bc.y-bd.y,2)))}function aE(bf,bd){var bc=bf.x-bd.x;var bh=bd.y-bf.y;var be=Math.atan2(bh,bc);var bg=Math.round(be*180/Math.PI);if(bg<0){bg=360-Math.abs(bg)}return bg}function aL(bd,bc){var be=aE(bd,bc);if((be<=45)&&(be>=0)){return p}else{if((be<=360)&&(be>=315)){return p}else{if((be>=135)&&(be<=225)){return o}else{if((be>45)&&(be<135)){return x}else{return e}}}}}function ar(){var bc=new Date();return bc.getTime()}function aY(bc){bc=f(bc);var be=bc.offset();var bd={left:be.left,right:be.left+bc.outerWidth(),top:be.top,bottom:be.top+bc.outerHeight()};return bd}function F(bc,bd){return(bc.x>bd.left&&bc.x<bd.right&&bc.y>bd.top&&bc.y<bd.bottom)}}}));!function(n){"use strict";n.fn.bsTouchSlider=function(i){var a=n(".carousel");return this.each(function(){function i(i){var a="webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";i.each(function(){var i=n(this),t=i.data("animation");i.addClass(t).one(a,function(){i.removeClass(t)})})}var t=a.find(".item:first").find("[data-animation ^= 'animated']");a.carousel(),i(t),a.on("slide.bs.carousel",function(a){var t=n(a.relatedTarget).find("[data-animation ^= 'animated']");i(t)}),n(".carousel .carousel-inner").swipe({swipeLeft:function(n,i,a,t,e){this.parent().carousel("next")},swipeRight:function(){this.parent().carousel("prev")},threshold:0})})}}(jQuery);
+
+   //Initialise Bootstrap Carousel Touch Slider
+   // Curently there are no option available.
+
+   $('#bootstrap-touch-slider').bsTouchSlider();
+
+   $(document).ready(function(){
+
+       $(".filter-button").click(function(){
+           var value = $(this).attr('data-filter');
+
+           if(value == "all")
+           {
+               //$('.filter').removeClass('hidden');
+               $('.filter').show('1000');
+           }
+           else
+           {
+   //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+   //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+               $(".filter").not('.'+value).hide('3000');
+               $('.filter').filter('.'+value).show('3000');
+
+           }
+       });
+
+       if ($(".filter-button").removeClass("active")) {
+   $(this).removeClass("active");
+   }
+   $(this).addClass("active");
+
+   });
+
+</script>
+<script>
+
+	  $('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+</script>
+<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+      rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script>
+
+    $(document).ready(function () {
+
+        $(function () {
+            $('#datetimepicker4').datepicker();
+        });
+
+        $('#btnSave1').click(function () {
+            debugger;
+
+            if ($("input[name=username1]").val() == "") {
+                $('#message11').html('This field is required');
+                $('#message21').html('');
+                
+            }
+           
+            else if ($("input[name=email1]").val() == "") {
+                $('#message21').html('This field is required');
+                $('#message11').html('');
+                $('#message3').html('');
+                $('#message4').html('');
+                $('#message5').html('');
+                $('#message6').html('');
+            }
+           
+            if ($("input[name=username1]").val() != "" && $("input[name=email1]").val() != "" ) {
+
+                $.ajax({
+
+                    url: "/Home/Mortgage",
+                    data: { 'username': $("input[name=username1]").val(),'time':$("input[name=time1]").val(), 'amount': $("input[name=subject1]").val(), 'date': $("#datetimepicker4").val(), 'Email': $("input[name=email1]").val(), 'day': $("#drpDay1").val() },
+                    type: "POST",
+                    dataType: 'json',
+                    success: function (data) {
+                        debugger;
+                        alert('Mail has been sent to admin. You will be contacted shortly.');
+                        $('#message11').html('');
+                       
+                        $('#message21').html('');
+                       
+                        $("input[name=username1]").val('');
+                        $("input[name=email1]").val('');
+                        $("input[name=subject]").val('');
+                        $("input[name=lname]").val('');
+                        $("input[name=time]").val('');
+                        return false;
+                    },
+                    error: function (data) {
+                        debugger;
+                        alert("Dynamic content load failed.");
+                    }
+                });
+            }
+        });
+        $('#btnSave').click(function () {
+            debugger;
+
+            if ($("input[name=username]").val() == "") {
+                $('#message1').html('This field is required');
+                $('#message2').html('');
+                $('#message3').html('');
+                $('#message4').html('');
+            }
+           
+            else if ($("input[name=email]").val() == "") {
+                $('#message2').html('This field is required');
+                $('#message1').html('');
+                $('#message3').html('');
+                $('#message4').html('');
+            }
+            else if ($("input[name=subject]").val() == "") {
+                $('#message3').html('This field is required');
+                $('#message1').html('');
+                $('#message2').html('');
+                $('#message4').html('');
+
+            }
+          
+           
+            if ($("input[name=username]").val() != "" && $("input[name=email]").val() != "" && $("input[name=subject]").val() != "" ) {
+
+                $.ajax({
+
+                    url: "/Home/RequestBack",
+                    data: { 'username': $("input[name=username]").val(), 'Time': $("input[name=subject]").val(), 'Email': $("input[name=email]").val(),'Day':$("#drpDay").val()},
+                    type: "POST",
+                    dataType: 'json',
+                    success: function (data) {
+                        debugger;
+                        alert('Mail has been sent to admin. You will be contacted shortly.');
+                        $('#message1').html('');
+                        $('#message3').html('');
+                        $('#message2').html('');
+                        $('#message4').html('');
+                       
+                        $("input[name=username]").val('');
+                        $("input[name=email]").val('');
+                        $("input[name=subject]").val('');
+                       
+                        return false;
+                    },
+                    error: function (data) {
+                        debugger;
+                        alert("Dynamic content load failed.");
+                    }
+                });
+            }
+        });
+    });
+</script>
+
+
